@@ -158,7 +158,7 @@ let pressCount = 0
 document.addEventListener('keydown', function (event) { if (event.key === 'Home'){
 pressCount ++
 if(pressCount%2==1){
-window.rz = setInterval(shaftHacks,1)
+window.rz = setInterval(hacks.shaftHacks,1)
 
 
 }
@@ -184,7 +184,7 @@ let xpressCount = 0
 document.addEventListener('keydown', function (event) { if (event.key === 'F9'){
 xpressCount ++
 if(xpressCount%2==1){
-window.rx = setInterval(acceleration,1)
+window.rx = setInterval(hacks.acceleration,1)
 
 
 }
@@ -212,7 +212,7 @@ hacks.crusaderAngle = function()
 document.addEventListener('keydown', function (event) { if (event.key === 'Insert'){
 epressCount ++
 if(epressCount%2==1){
-window.p = setInterval(crusaderAngle,1)
+window.p = setInterval(hacks.crusaderAngle,1)
 
 
 }
